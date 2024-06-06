@@ -112,8 +112,8 @@ console.log(getUniqueSkills(users));
 console.log(getTotalBalance(users));
 
 ////Task3
-//Оператор 'spread' використовується для розгортання елементів масиву. 
-//Приклад:
+//The spread operator is used to expand elements of an iterable (like an array, string, or object) into individual elements.
+//Example:
 const arr1 = ['a', 'b', 'c'];
 const arr2 = ['x', 'y', 'z'];
 const arr3 = [...arr1, ...arr2];
@@ -124,12 +124,11 @@ function sum(a, b, c) {
 }
 const numbers = [10, 64, 23];
 console.log(sum(...numbers));
-//Оператор 'Rest' використовується для збору елементів у масив
+//The rest operator is used to collect multiple elements and combine them into a single array or object.
 const [a, ...b] = ['a', 'b', 'c', 'd', 'e'];
 console.log(a);
 console.log(b);
-// Головна їхня відмінність в тому, що spread дозволяє розгортати елементи масиву як аргументи функції або аргументи іншого масиву, 
-// а оператор rest записувати додаткові параметри в параметр, до якого було застосовано оператор rest
+// Spread unpacks elements and Rest packs elements 
 
 ////Task 4
 document.addEventListener('DOMContentLoaded', () => {
